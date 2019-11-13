@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ParadoxSoft</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style media="screen">
+      .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 100px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+      *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Rubik', sans-serif;
+      }
+      body {
+        position: relative;
+      }
+      nav{
+        background: rgba(60,60,150,1);
+      }
+      .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        background: #28a745;
+      }
+      #fullpage{
+        background-image: url('img/header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+        background-position: center;
+      }
+      #section0{
+        background: rgba(60,60,150,.8);
+      }
+      .alto{
+        height: 500px;
+      }
+
+      .titulo{
+        ##margin-top: 250px;
+        color: #fff;
+        font-size: 75px;
+        font-weight: bold;
+      }
+      .hr-titulo {
+        max-width: 10.25rem;
+        border-width: .2rem;
+        border-color: #28a745;
+      }
+      .titulo-contenido{
+        color: #ccc;
+        font-size: 35px;
+      }
+      .btn{
+        padding: 15px 25px;
+        font-size: 20px;
+        border-radius: 40px;
+      }
+
+      h2{
+        padding-top: 100px;
+        font-size: 40px;
+      }
+      .hr-section2 {
+        max-width: 10.25rem;
+        border-width: .2rem;
+        border-color: #fff;
+      }
+      .section3{
+        padding-top: 100px;
+      }
+      .verde{
+        color: #28a745;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar-ParadoxSoft" data-offset="100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark secondary-color fixed-top shadow" id="navbar-ParadoxSoft">
+      <div class="container">
+        <a class="navbar-brand" href="#section0">ParadoxSoft</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0 nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Sobre nosotros<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="fullpage">
+    	<div class="section " id="section0">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <h1 class="titulo">ParadoxSoft</h1>
+          </div>
+          <div class="row align-items-center justify-content-center text-center">
+            <hr class="hr-titulo" align="left" noshade="noshade" size="2" width="80%" />
+          </div>
+          <div class="row align-items-center justify-content-center text-center">
+            <p class="titulo-contenido">Desarrollamos programas y paginas web que satisfacen las necesidades de nuestros clientes</p>
+          </div>
+          <div class="row align-items-center justify-content-center text-center">
+            <a class="btn btn-success text-white" href="#section1" type="button" name="button">Descubrenos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alto bg-success" id="section1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <h2 class="text-white section2">¡Tenemos lo que necesitas!</h2>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+          <hr class="hr-section2" align="left" noshade="noshade" size="2" width="80%">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="alto section3" id="section2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <h2>Nuestros servicios</h2>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+          <hr class="hr-titulo" align="left" noshade="noshade" size="2" width="80%" />
+        </div>
+        <div class="row">
+          <div class="container col-lg-4 ">
+            <div class="row align-items-center justify-content-center text-center">
+              <i class="material-icons verde">computer</i>
+            </div>
+            <div class="row align-items-center justify-content-center text-center">
+              <h3>Programas de escritorio</h3>
+            </div>
+          </div>
+          <div class="container col-lg-4 ">
+            <div class="row align-items-center justify-content-center text-center">
+              <i class="material-icons verde">code</i>
+            </div>
+            <div class="row align-items-center justify-content-center text-center">
+              <h3>Desarrollo de paginas web</h3>
+            </div>
+          </div>
+          <div class="container col-lg-4 ">
+            <div class="row align-items-center justify-content-center text-center">
+              <i class="material-icons verde">android</i>
+            </div>
+            <div class="row align-items-center justify-content-center text-center">
+              <h3>Aplicaciones Android</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="alto">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    	var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: false,
+      	scrollHorizontally: true,
+        parallax: true,
+        fitToSection: false,
+        paddingTop: '10em',
+      	paddingBottom: '10em'
+    	});
+
+    </script>
+
+  </body>
+</html>
